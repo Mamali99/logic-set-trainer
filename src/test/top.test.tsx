@@ -6,8 +6,8 @@ import IconButton from '../components/top';
 test('test IconButton enthält Link zu GitHub', () =>{
 
     render(<IconButton/>);
-    const Iconbutton = screen.getByRole('button');
+    const element = screen.getByTestId('github_icon_button')
     
-    expect(Iconbutton).toHaveAttribute('href', 'https://github.com/siKruger/logic-set-trainer');
+    expect(element).toHaveAttribute('href', 'https://github.com/siKruger/logic-set-trainer');
 
 })
