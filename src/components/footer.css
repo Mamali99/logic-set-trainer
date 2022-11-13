@@ -1,0 +1,8 @@
+#footer_container {
+    color:#976BF3;
+    text-align: center;
+    margin:0 auto;
+}
+.dark #footer_container {
+    color: #BABDC4;
+}
